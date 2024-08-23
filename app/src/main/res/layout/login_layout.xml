@@ -59,7 +59,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
         android:id="@+id/btnAcessarsistema"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
