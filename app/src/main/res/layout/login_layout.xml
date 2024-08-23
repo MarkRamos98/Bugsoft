@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="15dp"
+   android:layout_margin="20dp"
     tools:context=".LoginActivity">
 
     <ImageView
@@ -60,11 +60,13 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/entrar"
         app:cornerRadius="0dp" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
     <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Material3.Button.TextButton"
         android:id="@+id/btnAcessarsistema"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -75,6 +77,7 @@
 
 
     <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Material3.Button.TextButton"
         android:id="@+id/btnAcessarsistema"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
