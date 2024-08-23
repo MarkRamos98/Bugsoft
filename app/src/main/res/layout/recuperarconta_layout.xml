@@ -5,7 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RecuperarcontaActivity">
+    tools:context=".RecuperarcontaActivity"
+    android:orientation="vertical">
+
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -18,5 +20,12 @@
             android:id="@+id/IdToolBar"
             app:title="Recuperar Conta"
     </com.google.android.material.appbar.AppBarLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/recuperar_e_mail"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
 
 </LinearLayout>
